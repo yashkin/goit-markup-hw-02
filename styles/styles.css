@@ -32,7 +32,9 @@ body {
   list-style: none;
 }
 
-/* .link, */
+.team-list .link {
+  text-decoration: none;
+}
 
 .section-title {
   color: var(--title-text-color);
@@ -77,6 +79,26 @@ body {
   color: var(--accent-color);
 }
 
+.works-list .link {
+  text-decoration: none;
+}
+
+.works-list.link:hover,
+.works-list.link:focus {
+  color: var(--accent-color);
+}
+
+.works-list .text {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.text-hover {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 button {
   font-family: inherit;
 }
@@ -114,8 +136,24 @@ button:hover,
   color: var(--title-text-color);
 }
 
+.contacts-nav .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: lightgreen;
+}
+
 .feature-list .text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  color: var(--primary-white-color);
+}
+
+.works-list .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
