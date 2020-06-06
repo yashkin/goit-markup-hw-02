@@ -8,11 +8,31 @@
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.header-web {
+  color: #2196f3;
+}
+
+.header-studio {
+  color: #000000;
 }
 
 .list {
   list-style: none;
 }
+
+/* .link, */
 
 .section-title {
   color: var(--title-text-color);
@@ -25,19 +45,76 @@ body {
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  text-decoration: none;
 }
 
-.site-nav a:hover,
-a:focus {
+.site-nav .link {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 
-.contacts-nav a:hover,
-a:focus {
+.contacts-nav .list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.contacts-nav .link {
+  text-decoration: none;
+}
+
+.contacts-nav .link:hover,
+.conacts-nav .link:focus {
   color: var(--accent-color);
+}
+
+button {
+  font-family: inherit;
 }
 
 button:hover,
 :focus {
   color: var(--accent-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.section-title {
+  font-weight: 7000;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.feature-list .title,
+.wedo-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.feature-list .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
