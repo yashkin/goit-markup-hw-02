@@ -1,0 +1,43 @@
+:root {
+  --primary-text-color: rgba(117, 117, 117);
+  --title-text-color: rgb(33, 33, 33);
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.site-nav a:hover,
+a:focus {
+  color: var(--accent-color);
+}
+
+.contacts-nav a:hover,
+a:focus {
+  color: var(--accent-color);
+}
+
+button:hover,
+:focus {
+  color: var(--accent-color);
+}
